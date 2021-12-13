@@ -25,6 +25,10 @@ In order to run the application you need to have a web browse or an editor:
 * 4 - Try to add books to the shelf
 * 5 - Enjoy!
 
+##Live preview
+
+Click on [link](https://deikdesign.github.io/webpack-todo/dist/)
+
 
 ## Authors
 
