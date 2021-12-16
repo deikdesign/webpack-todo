@@ -104,6 +104,8 @@ deleteListButt.addEventListener('click', (ev) => {
   saveAndRender();
 });
 
+// const newListFormat = document.querySelector('[data-new-list-form]');
+
 newListFormat.addEventListener('submit', (ev) => {
   ev.preventDefault();
 
@@ -116,6 +118,7 @@ newListFormat.addEventListener('submit', (ev) => {
     saveAndRender();
     return;
   }
+  // const newListInp = document.querySelector('[data-new-list-input]');
 
   const listName = newListInp.value;
   if (listName == null || listName === '') return;

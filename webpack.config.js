@@ -46,7 +46,7 @@ module.exports = {
   plugins: [new HtmlWebpackPlugin({
     title: 'To DO TASK',
     filename: 'index.html',
-    template: path.resolve(__dirname, 'src/index.html'),
+    template: path.resolve(__dirname, 'src/temp.html'),
   }),
   ],
 };
